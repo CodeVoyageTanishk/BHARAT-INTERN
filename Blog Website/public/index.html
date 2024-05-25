@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TechTalk with Tanishk</h1>
+            <button id="create-article">Write a Blog</button>
+        </header>
+        <main id="articles-container"></main>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Create a Blog</h2>
+            <input type="text" id="blog-title" placeholder="Title">
+            <textarea id="blog-content" placeholder="Content"></textarea>
+            <button id="submit-blog">Publish</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
